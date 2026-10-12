@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KM CHEATS | KEY GENERATOR</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: #080808;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(ellipse at top, #4a0808 0%, transparent 55%),
+        radial-gradient(ellipse at bottom, #240000 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+    background: rgba(17,17,17,0.96);
+    border: 1px solid #5e1111;
+    border-radius: 20px;
+    padding: 26px 22px;
+    box-shadow: 0 0 35px rgba(255,0,0,0.12);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #ff3030;
+    text-shadow: 0 0 15px rgba(255,0,0,0.55);
+}
+
+.logo p {
+    font-size: 11px;
+    color: #888;
+    letter-spacing: 3px;
+    margin-top: 8px;
+}
+
+.tag {
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px solid #681515;
+    background: #200909;
+    color: #ff5555;
+    border-radius: 20px;
+    padding: 6px 12px;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    color: #bbb;
+    margin: 18px 0 9px;
+}
+
+input, select {
+    width: 100%;
+    background: #090909;
+    border: 1px solid #383838;
+    border-radius: 9px;
+    padding: 13px;
+    color: white;
+    outline: none;
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    border-color: #ff3030;
+    box-shadow: 0 0 10px #ff303022;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 13px;
+    border: none;
+    border-radius: 9px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:active {
+    transform: scale(.98);
+}
+
+.primary {
+    background: #e51b23;
+    color: white;
+    box-shadow: 0 0 15px #ff000022;
+}
+
+.primary:hover {
+    background: #ff3038;
+}
+
+.secondary {
+    background: #191919;
+    border: 1px solid #414141;
+    color: white;
+}
+
+.secondary:hover {
+    border-color: #ff3030;
+}
+
+.preview {
+    margin-top: 20px;
+    padding: 14px;
+    background: #090909;
+    border: 1px solid #292929;
+    border-radius: 10px;
+}
+
+.preview-title {
+    font-size: 10px;
+    color: #777;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.example {
+    color: #ff5050;
+    font-family: monospace;
+    font-size: 15px;
+    overflow-wrap: anywhere;
+}
+
+.resultado {
+    margin-top: 20px;
+    border-top: 1px solid #292929;
+    padding-top: 18px;
+}
+
+.resultado h3 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.contador {
+    color: #999;
+    font-size: 11px;
+    margin-bottom: 12px;
+}
+
+.lista {
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.key-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 12px 10px;
+    background: #0b0b0b;
+    border: 1px solid #252525;
+    border-radius: 7px;
+    margin-bottom: 7px;
+}
+
+.key-text {
+    font-family: monospace;
+    font-size: 12px;
+    color: #ff6464;
+    overflow-wrap: anywhere;
+}
+
+.mini-copy {
+    width: auto;
+    flex-shrink: 0;
+    padding: 8px 10px;
+    margin: 0;
+    background: #202020;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 0;
+}
+
+.status {
+    text-align: center;
+    color: #aaa;
+    font-size: 12px;
+    min-height: 16px;
+    margin-top: 15px;
+}
+
+.footer {
+    text-align: center;
+    color: #555;
+    font-size: 10px;
+    margin-top: 22px;
+    letter-spacing: 1px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        <h1>KM CHEATS</h1>
+        <p>KEY GENERATOR</p>
+        <div class="tag">● SISTEMA DE GERAÇÃO</div>
+    </div>
+
+    <label for="quantidade">QUANTIDADE DE KEYS</label>
+    <input
+        type="number"
+        id="quantidade"
+        min="1"
+        max="500"
+        value="5"
+        placeholder="Digite a quantidade"
+    >
+
+    <div class="preview">
+        <div class="preview-title">FORMATO DAS KEYS</div>
+        <div class="example">KM-CHEATS-150533-301066</div>
+    </div>
+
+    <button class="primary" onclick="gerarKeys()">
+        ⚡ GERAR KEYS
+    </button>
+
+    <button class="secondary" onclick="copiarTodas()">
+        ▣ COPIAR TODAS AS KEYS
+    </button>
+
+    <button class="secondary" onclick="limparKeys()">
+        LIMPAR RESULTADOS
+    </button>
+
+    <div class="resultado">
+        <h3>KEYS GERADAS</h3>
+        <div class="contador" id="contador">
+            Nenhuma Key gerada.
+        </div>
+        <div class="lista" id="lista"></div>
+    </div>
+
+    <div class="status" id="status"></div>
+
+    <div class="footer">
+        KM CHEATS © KEY SYSTEM
+    </div>
+
+</div>
+
+<script>
+let keysGeradas = [];
+
+function gerarKeys() {
+    const campo = document.getElementById("quantidade");
+    const quantidade = Number(campo.value);
+    const lista = document.getElementById("lista");
+    const contador = document.getElementById("contador");
+    const status = document.getElementById("status");
+
+    if (
+        !Number.isInteger(quantidade) ||
+        quantidade < 1 ||
+        quantidade > 500
+    ) {
+        status.textContent = "Escolha uma quantidade de 1 a 500.";
+        return;
+    }
+
+    keysGeradas = [];
+    lista.innerHTML = "";
+
+    const numerosUsados = new Set();
+
+    while (keysGeradas.length < quantidade) {
+        // Gera um número aleatório entre 1 e 999999
+        const numero = Math.floor(Math.random() * 999999) + 1;
+
+        if (numerosUsados.has(numero)) continue;
+
+        numerosUsados.add(numero);
+
+        const dobro = numero * 2;
+        const key = `KM-CHEATS-${numero}-${dobro}`;
+
+        keysGeradas.push(key);
+    }
+
+    keysGeradas.forEach((key, index) => {
+        const item = document.createElement("div");
+        item.className = "key-item";
+
+        const texto = document.createElement("span");
+        texto.className = "key-text";
+        texto.textContent = key;
+
+        const botao = document.createElement("button");
+        botao.className = "mini-copy";
+        botao.textContent = "COPIAR";
+        botao.onclick = () => copiarKey(key);
+
+        item.appendChild(texto);
+        item.appendChild(botao);
+        lista.appendChild(item);
+    });
+
+    contador.textContent =
+        keysGeradas.length + " Key(s) gerada(s)";
+
+    status.textContent = "Keys geradas com sucesso!";
+}
+
+async function copiarTexto(texto) {
+    try {
+        if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(texto);
+        } else {
+            const area = document.createElement("textarea");
+            area.value = texto;
+            area.style.position = "fixed";
+            area.style.opacity = "0";
+            document.body.appendChild(area);
+            area.select();
+
+            const sucesso = document.execCommand("copy");
+            area.remove();
+
+            if (!sucesso) throw new Error("Falha ao copiar");
+        }
+
+        return true;
+    } catch (erro) {
+        return false;
+    }
+}
+
+async function copiarKey(key) {
+    const sucesso = await copiarTexto(key);
+
+    document.getElementById("status").textContent =
+        sucesso ? "Key copiada!" : "Não foi possível copiar.";
+}
+
+async function copiarTodas() {
+    const status = document.getElementById("status");
+
+    if (keysGeradas.length === 0) {
+        status.textContent = "Gere algumas Keys primeiro.";
+        return;
+    }
+
+    const sucesso = await copiarTexto(keysGeradas.join("\n"));
+
+    status.textContent = sucesso
+        ? "Todas as Keys foram copiadas!"
+        : "Não foi possível copiar.";
+}
+
+function limparKeys() {
+    keysGeradas = [];
+    document.getElementById("lista").innerHTML = "";
+    document.getElementById("contador").textContent =
+        "Nenhuma Key gerada.";
+    document.getElementById("status").textContent =
+        "Resultados limpos.";
+}
+</script>
+
+</body>
+</html>
